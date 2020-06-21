@@ -1,0 +1,54 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    margin: 0 auto;
+    letter-spacing: .1rem;
+}
+
+#container {
+    height: 100vh;
+    background-image: url(./assets/background.jpg);
+    background-size: cover;
+    /* border: 5px solid slateblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+p {
+    background-color: rgba(0, 0, 0, .7);
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    width: 350px;
+    text-align: center;
+}
+
+#start {
+    margin-top: 20px;
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: .1rem;
+    color: white;
+    text-transform: uppercase;
+    background-color: blueviolet;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1.5s ease;
+}
+
+#creators {
+    padding: 5px;
+    width: 200px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2rem;
+}
+
+#start:hover {
+    background-color: indigo;
+    transform: scale(1.8);
+    transition: all 1.5s ease;
+}
